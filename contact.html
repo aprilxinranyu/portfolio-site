@@ -26,14 +26,15 @@
         <h2>I could be anywhere :P</h2>
     </div>
     <div>
-        <form action="/action_page.php">
-            <label for="fname">First name:</label> <input type="text" id="fname" name="fname"> <br>
-            <label for="lname">Last name:</label> <input type="text" id="lname" name="lname"> <br>
+        <form id="contactForm">
+            <label for="fname">First name:</label> <input type="text" id="firstName" name="firstName"> <br>
+            <label for="lname">Last name:</label> <input type="text" id="lastName" name="lastName"> <br>
             <label for="email">Email:</label> <input type="email" ID="email" name="email"> <br>
-            <label for="birthday">Birth date:</label> <input type="date" ID="birthday" name="birthday"> <br>
-            <label for="self-intro">Tell me more about you: </label> <br>
-            <textarea id="self-intro" name="self-intro" rows="5" cols="50">I am ...</textarea> <br>
-            <input type="submit" value="Submit">
+            <label for="DOB">Birth date:</label> <input type="date" ID="DOB" name="DOB"> <br>
+            <label for="selfIntro">Tell me more about you: </label> <br>
+            <textarea id="selfIntro" name="selfIntro" rows="5" cols="50">I am ...</textarea> <br>
+            <button type="button" id="submitBtn">Submit</button>
+            <button type="button" id="clearBtn">Clear</button>
         </form>
     </div>
     <footer>
@@ -47,4 +48,5 @@
         </div> 
     </footer>
 </body>
+<script src="/script.js"></script>
 </html>
