@@ -1,38 +1,51 @@
 
+/*overall*/
 body {
-    background-color: black;
-    color: hotpink;
-}
-ul {
-    list-style-type: none;
-    position: sticky;
-    margin: 0;
-    padding: 0;
     background-color: black; 
-    color: green;
+    color:white;
+    font-family:'Courier New', Courier, monospace;
+    margin: 20px;
 }
+hr.divider {border-top: 2px dashed darkgreen;}
 
-.flex-container li {
-    display: flex;
-    max-width: 500px; height: 50px; padding: 10px; margin: 20px; border: 5px dashed green;
-    justify-content: center;
+header h1 {color:rgb(255, 0, 128);font-size:200%;text-align:center;}
+h1 {color: hotpink;}
+h2 {color:rgb(253, 180, 216);}
+p {color: white;}
+/*overall*/
+
+/*links*/
+a:hover {color: yellowgreen;}
+a:visited {color: darkgreen;}
+
+/*navigation bar*/
+div.navbar ul {
+    list-style-type: none;
+    display: grid; 
+    grid-template-columns: auto auto auto auto auto;
+    margin: 10px; padding: 10px; width:auto; height: auto;
+    overflow:auto;
 }
-
-
-li a {
-    display: block;
-    color: white;
-    text-align: left;
-    padding: 15px 16px;
+div.navbar li {
+    color: darkgreen;
+    font-weight:bolder;
+    text-align: center;
+    padding: 10px 30px;
     text-decoration: none;
 }
-
-li a:hover {
-    background-color: black;
-    color: red;
+div.navbar li:hover {
+    border:2px dashed darkgreen;
 }
+/*navigation bar*/
 
-.active {
-    background-color: #04AA6D;
-    color: white;
+/*photos*/
+.bigphoto img {width: 100%; height:100%; object-fit: cover;}
+.gallary img {width: 40%; height: 40%; object-fit: contain;}
+/*photos*/
+
+/*forms*/
+form {
+    margin: 20px; padding: 20px;
+    border: 2px dashed darkgreen;
 }
+/*forms*/

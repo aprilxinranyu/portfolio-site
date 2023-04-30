@@ -4,24 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link ref="stylesheet" href="portfolio-style.css">
+    <link rel="stylesheet" href="/style.css">
     <title>contact</title>
 </head>
 <body>
     <header>
-        <h1>Let's connect!</h1>
-        <h3>I could be anywhere :P</h3>
+        <h1><img src="https://cdn-icons-png.flaticon.com/512/2173/2173994.png" height="30" width="30">April Xinran Yu<img src="https://cdn-icons-png.flaticon.com/512/2173/2173994.png" height="30" width="30"></h1>
     </header>
+    <div class="navbar">
+        <ul>
+            <li><a href="/home.html">Home</a></li>
+            <li><a href="/contact.html">Contact Me:D</a></li>
+            <li><a href="/tech.html">Techy Works</a></li>
+            <li><a href="/art.html">Artsy Works</a></li>
+            <li><a href="/life.html">Slashy Works</a></li>
+            
+        </ul>
+    </div>
+    <div class="page-title">
+        <h1>Let's connect!</h1>
+        <h2>I could be anywhere :P</h2>
+    </div>
     <div>
-        <form action="/action_page.php">
-            <label for="fname">First name:</label> <input type="text" id="fname" name="fname"> <br>
-            <label for="lname">Last name:</label> <input type="text" id="lname" name="lname"> <br>
+        <form id="contactForm">
+            <label for="fname">First name:</label> <input type="text" id="firstName" name="firstName"> <br>
+            <label for="lname">Last name:</label> <input type="text" id="lastName" name="lastName"> <br>
             <label for="email">Email:</label> <input type="email" ID="email" name="email"> <br>
-            <label for="birthday">Birth date:</label> <input type="date" ID="birthday" name="birthday"> <br>
-            <label for="self-intro">Tell me more about you: </label> <br>
-            <textarea id="self-intro" name="self-intro" rows="5" cols="50">I am ...</textarea> <br>
-            <input type="submit" value="Submit">
+            <label for="DOB">Birth date:</label> <input type="date" ID="DOB" name="DOB"> <br>
+            <label for="selfIntro">Tell me more about you: </label> <br>
+            <textarea id="selfIntro" name="selfIntro" rows="5" cols="50">I am ...</textarea> <br>
+            <button type="button" id="submitBtn">Submit</button>
+            <button type="button" id="clearBtn">Clear</button>
         </form>
     </div>
+    <footer>
+        <div name="media">
+            <p>Follow me on:</p>
+            <a href="https://www.linkedin.com/in/aprilxinranyu/"> <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="50" height="50"> </a>
+            <a href="https://etsy.com/AprilRhapsody/"> <img src="https://bushelandpecks.com/wp-content/uploads/2017/03/etsy-logo.png" width="50" height="50"> </a>
+            <a href="mailto:aprilxinranyu@gmail.com"><img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" width="50" height="50"></a>
+            <a href="https://ibb.co/XZyVvR7"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" width="50" height="50"> </a>
+            <a href="https://ibb.co/G0n8Vvh"> <img src="https://www.un.org/sites/un2.un.org/files/2021/04/wechat-logo.png" width="50" height="50"> </a>
+        </div> 
+    </footer>
 </body>
+<script src="/script.js"></script>
 </html>
